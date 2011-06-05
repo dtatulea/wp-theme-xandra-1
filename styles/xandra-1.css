@@ -1,12 +1,3 @@
-#access {
-    margin: 0 0 1.5em 0;
-    overflow: auto;
-}
-.skip-link {
-    position:absolute;
-    left:-9000px;
-}
-
 /* make nice links*/
 a {
     color: black;
@@ -16,9 +7,11 @@ a:hover {
     color: red;
 }
 
+/*
 .menu ul li a {
     padding-right: 12px;
 }
+*/
 
 /* get some nice fonts */
 #blog-title a {
@@ -33,7 +26,6 @@ a:hover {
     letter-spacing: -0.2em;
     word-spacing: 0em;
     line-height: 1;
-    padding-right: 25%;
 }
 
 /* don't color visited blog title */
@@ -42,7 +34,7 @@ a:hover {
 }
 
 /* menu aka wp pages */
-.menu a {
+#access ul li a {
     float: left;
     font-family: 'Anonymous Pro', serif;
     font-size: 15px;
@@ -54,6 +46,7 @@ a:hover {
     letter-spacing: 0em;
     word-spacing: 0em;
     line-height: 1.2;
+    padding-right: 4%;
 }
 
 /* body text */
