@@ -9,7 +9,7 @@
         elseif ( is_404() ) { bloginfo('name'); print ' | Not Found'; }
         else { bloginfo('name'); wp_title('|'); get_page_number(); }
     ?></title>
-	
+
 	<meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
         <!-- google fonts -->
@@ -42,7 +42,7 @@
 			
 			<div id="access">
 				<div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'your-theme' ) ?>"><?php _e( 'Skip to content', 'your-theme' ) ?></a></div>
-				<?php wp_page_menu( 'sort_column=menu_order' ); ?>			
+				<?php wp_nav_menu(); ?>
 			</div><!-- #access -->
 			
 		</div><!-- #masthead -->	
