@@ -19,7 +19,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 @import url('styles/rebuild.css');
 
 /* Import a basic layout */
-@import url('styles/2c-r.css');
+@import url('styles/xandra-1.css');
 
 /* Basic WordPress Styles */
 @import url('styles/wp.css');
