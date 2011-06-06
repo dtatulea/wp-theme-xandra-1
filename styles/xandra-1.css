@@ -62,3 +62,7 @@ a:hover {
     word-spacing: 0em;
     line-height: 1.2;
 }
+
+body {
+    width: 800px;
+}
