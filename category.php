@@ -30,9 +30,7 @@
 
 					<div class="entry-utility">
 <?php if ( $cats_meow = cats_meow(', ') ) : // Returns categories other than the one queried ?>
-						<span class="cat-links"><?php printf( __( 'Also posted in %s', 'your-theme' ), $cats_meow ) ?></span>
 <?php endif ?>
-						<?php the_tags( '<span class="tag-links"><span class="entry-utility-prep entry-utility-prep-tag-links">' . __('Tagged ', 'your-theme' ) . '</span>', ", ", "</span>\n\t\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
 						<?php edit_post_link( __( 'Edit', 'your-theme' ), "<span class=\"meta-sep\">|</span>\n\t\t\t\t\t\t<span class=\"edit-link\">", "</span>\n\t\t\t\t\t\n" ) ?>
 					</div><!-- #entry-utility -->	
 				</div><!-- #post-<?php the_ID(); ?> -->
