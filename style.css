@@ -18,16 +18,9 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 /* Rebuild default browser styles */
 @import url('styles/rebuild.css');
 
-/* Import a basic layout */
-@import url('styles/xandra-1.css');
-
 /* Basic WordPress Styles */
 @import url('styles/wp.css');
 
-
-body {
-	margin: 1.5em 15%;
-}
 
 /* =Header
 -------------------------------------------------------------- */
@@ -44,9 +37,7 @@ body {
 	margin: 0 0 1.5em 0;
 	overflow: auto;
 }
-.skip-link {
-	display: none;
-}
+
 .menu ul {
 	list-style: none;
 	margin: 0;
@@ -101,26 +92,71 @@ body {
 	margin: 0 0 1.5em 0;
 }
 
+/* Xandra-1 specific */
 
+body {
+    font-family: 'Anonymous Pro', serif;
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+}
 
+/* make nice links*/
+a {
+    color: black;
+}
 
+/*
+.menu ul li a {
+    padding-right: 12px;
+}
+*/
 
+/* get some nice fonts */
+#blog-title a {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.2em;
+    word-spacing: 0em;
+    position: absolute;
+    top: 40px;
+    left: 700px;
+}
 
+/* don't color visited blog title */
+#blog-title a:hover {
+    color: black;
+}
 
+/* menu aka wp pages */
+#access ul li a {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.2;
+    padding-right: 10px;
+    float: left;
+    display: inline;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* body text */
+#main {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.2;
+}
