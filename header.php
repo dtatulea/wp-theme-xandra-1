@@ -41,7 +41,6 @@
 			</div><!-- #branding -->
 			
 			<div id="access">
-				<div class="skip-link"><a href="#content" title="<?php _e( 'Skip to content', 'your-theme' ) ?>"><?php _e( 'Skip to content', 'your-theme' ) ?></a></div>
 				<?php wp_nav_menu(); ?>
 			</div><!-- #access -->
 			

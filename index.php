@@ -47,7 +47,7 @@
 				</div><!-- #nav-below -->
 <?php } ?>			
 
-			</div><!-- #content -->		
+                        </div><!-- #content -->		
 		</div><!-- #container -->
 		
 <?php get_sidebar(); ?>	

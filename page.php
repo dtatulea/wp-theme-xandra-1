@@ -2,7 +2,7 @@
 	
 		<div id="container">	
 			<div id="content">
-			
+		
 <?php the_post(); ?>
 				
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -12,9 +12,6 @@
 <?php edit_post_link( __( 'Edit', 'your-theme' ), '<span class="edit-link">', '</span>' ) ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-<?php the_ID(); ?> -->			
-			
-<?php if ( get_post_custom_values('comments') ) comments_template() // Add a custom field with Name and Value of "comments" to enable comments on this page ?>			
-			
 			</div><!-- #content -->		
 		</div><!-- #container -->
 		

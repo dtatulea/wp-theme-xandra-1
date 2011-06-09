@@ -29,8 +29,6 @@
 					</div><!-- .entry-content -->
 
 					<div class="entry-utility">
-<?php if ( $cats_meow = cats_meow(', ') ) : // Returns categories other than the one queried ?>
-<?php endif ?>
 					</div><!-- #entry-utility -->	
 				</div><!-- #post-<?php the_ID(); ?> -->
 
