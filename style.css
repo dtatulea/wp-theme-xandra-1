@@ -132,6 +132,12 @@ a:hover {
     background-color: yellow;
 }
 
+/* ...except blog title */
+#blog-title a:hover {
+    background-color: white;
+}
+
+
 /* menu aka wp pages */
 #access ul li a {
     font-size: 15px;
@@ -145,8 +151,8 @@ a:hover {
     line-height: 1.2;
     float: left;
     display: inline;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* body text */
