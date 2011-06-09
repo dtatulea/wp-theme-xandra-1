@@ -98,8 +98,8 @@ body {
     font-family: 'Anonymous Pro', serif;
     width: 700px;
     height: auto;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-left: 70px;
 }
 
 /* make nice links*/
@@ -123,13 +123,13 @@ a {
     letter-spacing: -0.2em;
     word-spacing: 0em;
     position: absolute;
-    top: 40px;
+    top: 35px;
     left: 700px;
 }
 
-/* don't color visited blog title */
-#blog-title a:hover {
-    color: black;
+/* yellow boxes on hovered links */
+a:hover {
+    background-color: yellow;
 }
 
 /* menu aka wp pages */
@@ -143,9 +143,10 @@ a {
     letter-spacing: 0em;
     word-spacing: 0em;
     line-height: 1.2;
-    padding-right: 10px;
     float: left;
     display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 /* body text */
